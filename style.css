@@ -1,0 +1,216 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #222;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 50px;
+    border-bottom: 1px solid #eee;
+     background-color: white;
+}
+
+nav h2 {
+    margin: 0;
+    letter-spacing: 30px;
+    font-size: 22px;
+}
+
+nav a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: #222;
+    font-size: 14px;
+}
+
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+    background-color: #f5f3f0;
+}
+
+.hero h1 {
+    font-size: 55px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+button {
+    background-color: #222;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.products {
+    padding: 70px 50px;
+    text-align: center;
+}
+
+.products h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.product {
+    display: inline-block;
+    width: 280px;
+    margin: 15px;
+    vertical-align: top;
+    transition: transform 0.2s;
+}
+
+.product-image {
+    height: 330px;
+    background: linear-gradient(135deg, #e8e4df, #f7f5f2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #777;
+    font-size: 16px;
+}
+
+.product h3 {
+    margin-top: 18px;
+}
+
+.product p {
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    border-top: 1px solid #eee;
+}
+.about {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #f5f3f0;
+}
+
+.about h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.about p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: auto;
+}
+nav a:hover {
+    color: #888;
+}
+.collection-banner {
+    text-align: center;
+    padding: 70px 20px;
+    background-color: #222;
+    color: white;
+}
+
+.collection-banner h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.collection-banner p {
+    margin-bottom: 25px;
+}
+
+.collection-banner button {
+    background-color: white;
+    color: #222;
+}
+footer {
+    text-align: center;
+    padding: 35px 20px;
+    background-color: #111;
+    color: white;
+    font-size: 14px;
+}
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+    }
+
+    nav a {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .hero {
+        padding: 80px 20px;
+    }
+
+    .hero h1 {
+        font-size: 40px;
+    }
+
+    .products {
+        padding: 50px 20px;
+    }
+
+    .product {
+        width: 100%;
+        max-width: 320px;
+    }
+}
+.about {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #f5f3f0;
+}
+
+.about h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.about p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: auto;
+}
+.instagram {
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.instagram h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.instagram p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.instagram a {
+    display: inline-block;
+    background-color: #222;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+}
+
+.instagram a:hover {
+    background-color: #555;
+}
